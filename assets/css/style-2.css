@@ -1,0 +1,276 @@
+body{
+  background-image: url("../images/hypnotize.png");
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  color: #777777;
+}
+
+h1{
+  font-size: 48px;
+  color: #4aaaa5;
+}
+
+h2{
+  font-size: 32px;
+  color: #4aaaa5;
+}
+
+#h1_white{
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: #777777;
+}
+
+a:hover{
+    color: #4aaaa5;
+}
+
+hr{
+  border-width: 3px;
+}
+
+#img_bio{
+  height: 260px;
+  margin-right: 10px;
+  float: left;
+}
+
+.p_bio{
+  font-family: 'Amatic SC', cursive;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 36px;
+  padding-left: 5px;
+}
+
+#project1{
+  height: 225px;
+  width: 300px;
+  background-image: url("../images/1.jpg");
+  float: left;
+  margin: 20px 10px 0px 10px;
+}
+
+#project1 p{
+  font-family: 'Amatic SC', cursive;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background: #4aaaa5;
+  text-align: center;
+  position: relative;
+  top: 150px;
+  padding: 5px;
+}
+
+#project2{
+  height: 225px;
+  width: 300px;
+  background-image: url("../images/2.jpg");
+  float: left;
+  margin: 20px 10px 0px 10px;
+}
+
+#project2 p{
+  font-family: 'Amatic SC', cursive;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background: #4aaaa5;
+  text-align: center;
+  position: relative;
+  top: 150px;
+  padding: 5px;
+}
+
+#project3{
+  height: 225px;
+  width: 300px;
+  background-image: url("../images/3.jpg");
+  float: left;
+  margin: 20px 10px 0px 10px;
+}
+
+#project3 p{
+  font-family: 'Amatic SC', cursive;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background: #4aaaa5;
+  text-align: center;
+  position: relative;
+  top: 150px;
+  padding: 5px;
+}
+
+#project4{
+  height: 225px;
+  width: 300px;
+  background-image: url("../images/4.jpg");
+  float: left;
+  margin: 20px 10px 0px 10px;
+}
+
+#project4 p{
+  font-family: 'Amatic SC', cursive;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background: #4aaaa5;
+  text-align: center;
+  position: relative;
+  top: 150px;
+  padding: 5px;
+}
+
+#project5{
+  height: 225px;
+  width: 300px;
+  background-image: url("../images/5.jpg");
+  float: left;
+  margin: 20px 10px 0px 10px;
+}
+
+#project5 p{
+  font-family: 'Amatic SC', cursive;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background: #4aaaa5;
+  text-align: center;
+  position: relative;
+  top: 150px;
+  padding: 5px;
+}
+
+form{
+  font-family: 'Amatic SC', cursive;
+  font-size: 24px;
+  font-weight: bold;
+  width: 100%;
+}
+
+input{
+  width: 580px;
+  padding: 10px 20px;
+  margin: 10px;
+  display: inline-block;
+  border: 1px solid #777777;
+}
+
+#form_msg{
+  height: 150px;
+}
+
+input[type=submit]{
+  font-family: 'Amatic SC', cursive;
+  font-size: 24px;
+  font-weight: bold;
+  border-color: #cccccc;
+  background: #4aaaa5;
+  color: white;
+  width: 80px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.wrapper{
+  /*border-style: solid;*/
+  /*border-width: 2px;*/
+  /*border-color: green;*/
+  width: 960px;
+  margin: 20px auto;
+}
+
+header{
+  /*border-style: solid;*/
+  border-bottom: solid;
+  border-width: 5px;
+  border-color: #cccccc;
+  padding-bottom: 50px;
+  width: 100%;
+  background: #ffffff;
+}
+
+#name{
+  /*border-style: solid;*/
+  /*border-width: 2px;*/
+  /*border-color: red;*/
+  background: #4aaaa5;
+  color: black;
+  float: left;
+  width: 400px;
+  text-align: center;
+  padding-top: 6px;
+  /*margin-top: 20px;*/
+}
+
+#nav{
+  /*border-style: solid;*/
+  /*border-width: 2px;*/
+  /*border-color: orange;*/
+  float: right;
+  padding-top: 15px;
+  padding-right: 30px;
+}
+
+#content{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #777777;
+  width: 650px;
+  float: left;
+  margin-top: 20px;
+  padding: 20px 5px 20px 5px;
+  background: #ffffff;
+}
+
+#aside{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #777777;
+  width: 270px;
+  float: right;
+  padding: 20px 5px 20px 5px;
+  margin-top: 20px;
+  background: #ffffff;
+  text-align: center;
+}
+
+#footer{
+  position: absolute;
+  bottom: 0;
+  border-top: solid;
+  border-width: 5px;
+  border-color: #4aaaa5;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: #666666;
+  color: white;
+}
+
+@media screen and (max-width: 640px) {
+  /*body {
+    background-color: #333;
+  }
+
+  .wrapper {
+     Box-model
+    width: 100%;
+    padding: 20px;
+  }
+
+  #main-content,
+  #sidebar {
+    width: 100%;
+  }
+
+  #sidebar {
+    margin-top: 40px;
+  }*/
+}
