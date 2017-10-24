@@ -316,9 +316,17 @@ header{
     float: none;
   }
 
+  #project1 p{
+    font-size: 28px;
+  }
+
   #project2{
     margin: 20px auto;
     float: none;
+  }
+
+  #project2 p{
+    font-size: 28px;
   }
 
   #project3{
@@ -326,14 +334,26 @@ header{
     float: none;
   }
 
+  #project3 p{
+    font-size: 28px;
+  }
+
   #project4{
     margin: 20px auto;
     float: none;
   }
 
+  #project4 p{
+    font-size: 28px;
+  }
+
   #project5{
     margin: 20px auto;
     float: none;
+  }
+
+  #project5 p{
+    font-size: 28px;
   }
 
   input{
@@ -346,7 +366,6 @@ header{
     float: left;
     margin: 20px auto;
   }
-
 }
 
 @media screen and (max-width: 768px) {
@@ -404,11 +423,21 @@ header{
     float: left;
   }
 
+  #project1 p{
+    font-size: 24px;
+    top: 120px;
+  }
+
   #project2{
     height: 180px;
     width: 240px;
     margin: 20px 20px 0px 20px;
     float: left;
+  }
+
+  #project2 p{
+    font-size: 24px;
+    top: 120px;
   }
 
   #project3{
@@ -418,6 +447,11 @@ header{
     float: left;
   }
 
+  #project3 p{
+    font-size: 24px;
+    top: 120px;
+  }
+
   #project4{
     height: 180px;
     width: 240px;
@@ -425,11 +459,21 @@ header{
     float: left;
   }
 
+  #project4 p{
+    font-size: 24px;
+    top: 120px;
+  }
+
   #project5{
     height: 180px;
     width: 240px;
     margin: 20px 20px 0px 20px;
     float: left;
+  }
+
+  #project5 p{
+    font-size: 24px;
+    top: 120px;
   }
 
   input{
@@ -442,25 +486,134 @@ header{
     float: left;
     margin: 20px auto;
   }
-
 }
 
 @media screen and (max-width: 640px) {
+
+  body{
+    font-size: 16px;
+  }
+  
+  h1{
+    font-size: 36px;
+  }
+
+  h2{
+    font-size: 24px;
+  }
+
+  #img_bio{
+    display: block;
+    margin: 10px auto;
+    float: none;
+  }
 
   .wrapper{
     border-style: solid;
     border-width: 2px;
     border-color: blue;
     width: 100%;
+    margin: 0 auto;
+  }
+
+  header{
+    padding-bottom: 80px;
+  }
+
+  #name{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  #nav{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
   }
 
   #content{
-    width: 50%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   #aside{
-    width: 30%;
-    float: left;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
+  #project1{
+    height: 180px;
+    width: 240px;
+    margin: 20px auto;
+    float: none;
+  }
+  
+  #project1 p{
+    font-size: 24px;
+    top: 120px;
+  }
+
+  #project2{
+    height: 180px;
+    width: 240px;
+    margin: 20px auto;
+    float: none;
+  }
+
+  #project2 p{
+    font-size: 24px;
+    top: 120px;
+  }
+
+  #project3{
+    height: 180px;
+    width: 240px;
+    margin: 20px auto;
+    float: none;
+  }
+
+  #project3 p{
+    font-size: 24px;
+    top: 120px;
+  }
+
+  #project4{
+    height: 180px;
+    width: 240px;
+    margin: 20px auto;
+    float: none;
+  }
+
+  #project4 p{
+    font-size: 24px;
+    top: 120px;
+  }
+
+  #project5{
+    height: 180px;
+    width: 240px;
+    margin: 20px auto;
+    float: none;
+  }
+
+  #project5 p{
+    font-size: 24px;
+    top: 120px;
+  }
+
+  input{
+    width: 85%;
+  }
+
+  #footer{
+    position: static;
+    width: 100%;
+    float: left;
+    margin: 20px auto;
+  }
 }
